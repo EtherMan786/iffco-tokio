@@ -1,0 +1,54 @@
+@media only screen and (min-width:647px) {
+    .new-offer-div{
+        display: none;
+    }
+}
+@media only screen and (max-width:1100px){
+    .car-box{
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 647px){
+    .offer-text{
+        display: block;
+        /* border-radius: 10px; */
+    }
+}
+
+@media only screen and (max-width: 647px){
+    .logo-img{
+        text-align: center;
+        margin: 2%;
+    }
+    .balloon{
+        display: none;
+    }
+    .offer{
+        display: none;
+    }
+    .all-content{
+        flex-direction: column-reverse;
+        
+    }
+    .form{
+        width: 90%;
+        margin: auto;
+    }
+    .right-content{
+        padding-bottom: 30%;
+    }
+    .Key-benefits-section{
+        width: 100%;
+    }
+    .car-box{
+        width: 50%;
+        right: 5%;
+    }
+    .btn-1{
+        margin-top: 2%;
+    }
+    /* .Key-benefits-section{
+        width: 100%;
+    } */  
+}
